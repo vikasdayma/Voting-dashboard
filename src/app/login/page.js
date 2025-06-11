@@ -44,8 +44,9 @@ export default function LoginPage() {
           </button>
         </form>
         <p className="mt-4 text-sm text-center">
-          Don't have an account? <a href="/register" className="text-blue-600 underline">Register</a>
-        </p>
+  Don&apos;t have an account? <a href="/register" className="text-blue-600 underline">Register</a>
+</p>
+
         <div className="mt-6 text-lg text-gray-500">
           <p>Dummy Email: <b>test@example.com</b></p>
           <p>Dummy Password: <b>123456</b></p>
