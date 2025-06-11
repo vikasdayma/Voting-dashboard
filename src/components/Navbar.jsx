@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          {isLoggedIn ? (
+          {/* {isLoggedIn ? (
             <button
               onClick={handleLogout}
               className="text-red-500 hover:text-red-300 px-3 py-2 text-sm font-medium border border-red-500 rounded"
@@ -69,7 +69,7 @@ const Navbar = () => {
             >
               Login
             </Link>
-          )}
+          )} */}
         </div>
       </div>
 
