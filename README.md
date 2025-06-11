@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🗳️ Voting Management System
 
-## Getting Started
+A modern and responsive web application for managing voting events, built using Next.js, Tailwind CSS, Redux, and more.
 
-First, run the development server:
+🔧 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js – App directory routing & SSR
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tailwind CSS – Utility-first CSS for styling
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Redux Toolkit – State management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Lucide Icons – Icon library for clean UI
 
-## Learn More
+React Toastify – Toast notifications
 
-To learn more about Next.js, take a look at the following resources:
+JavaScript (ES6+)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+src/
 
-## Deploy on Vercel
+│
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+├── app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+│   ├── dashboard/
+
+│   │   └── voters/
+
+│   │       ├── layout.js
+
+│   │       └── page.js
+
+│   ├── login/
+
+│   │   └── page.js
+
+│   ├── register/
+
+│   │   └── page.js
+
+│   ├── layout.js
+
+│   ├── page.js
+
+│   ├── globals.css
+
+│   └── favicon.ico
+
+│
+
+├── components/        # Reusable UI components
+
+├── features/          # Redux slices
+
+├── libs/              # External libraries & helpers
+
+├── utils/             # Utility functions
+
+│
+
+├── .gitignore
+
+├── eslint.config.mjs
+
+├── jsconfig.json
+
+├── next.config.mjs
+
+├── package.json
+
+└── package-lock.json
+
+
+📦 Installation
+
+git clone https://github.com/yourusername/voting-management-system.git
+
+cd voting-management-system
+
+npm install
+
+
+
