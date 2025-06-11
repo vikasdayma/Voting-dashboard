@@ -12,7 +12,7 @@ export default function LoginPage() {
     e.preventDefault()
     if (email === 'test@example.com' && password === '123456') {
       router.push('/dashboard')
-      localStorage.setItem("isLoggedIn", "true");
+      localStorage.setItem("isLoggedIn", "false");
 
     } else {
       setError('Invalid credentials')

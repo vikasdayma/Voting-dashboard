@@ -482,7 +482,7 @@ export default function VoterPage() {
               value={formData.fullName}
               onChange={handleChange}
               className="border rounded px-3 py-2 w-full"
-              required
+             
             />
           </div>
 
@@ -495,6 +495,7 @@ export default function VoterPage() {
                 value={formData.firstName}
                 onChange={handleChange}
                 className="border rounded px-3 py-2 w-full"
+                
               />
             </div>
             <div>
